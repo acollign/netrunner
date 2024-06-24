@@ -1859,7 +1859,8 @@
     {:settings :fr.nav/settings
      :logout "Débrancher"
      :admin :fr.nav/admin
-     :moderator "Modérateur"}
+     :moderator "Modérateur",
+     :donor "Donateur"}
     :card-browser
     {:search-hint "Rechercher des cartes"
      :sort "Trier par"
@@ -1984,7 +1985,33 @@
      :lobby.api-access "Autoriser l'accès API aux informations de la partie"
      :lobby.api-requires-key "(Nécessite un clé API dans les réglages)"
      :game-count (fn [[cnt]] (str cnt (if (= 1 cnt) " Partie" " Parties")))
-     :filtered "(filtres activés)"}
+     :filtered "(filtres activés)"
+     :angel-arena "Angel Arena"
+     :api-access "Autoriser l’accès API aux informations de la partie"
+     :api-requires-key "(Requiert une clé API dans les Réglages)"
+     :singleton "Singleton"
+     :timed-game "Démarrer la partie avec horloge"
+     :timer-length "Durée (minutes)"}
+   :angel-arena
+   {:abandon-run "Abandonner le run en cours"
+    :active-corp-run "Run actif de la Corpo"
+    :active-runner-run "Run actif du Runner"
+    :are-you-sure "Êtes-vous sûr·e ?"
+    :are-you-sure-no "non"
+    :are-you-sure-yes "oui"
+    :cancel-match "Annuler le match"
+    :claim-victory "Revendiquer la victoire"
+    :format "Format"
+    :latest-runs "Derniers runs"
+    :no-eligible-decks "Pas de deck légal pour ce camp et ce format"
+    :no-games "Pas de parties"
+    :queue-for-match "Entrer dans la file d’attente"
+    :queueing "Actuellement dans la file d’attente"
+    :requesting-run-data "Demander les données du run"
+    :select-deck "Sélectionner votre deck"
+    :start-new-run "Commencer un nouveau run"
+    :still-here "Besoin de temps supplémentaire"
+    :wins "victoires"},
    :settings
    {:invalid-password "Identifiant ou mot de passe invalide"
     :invalid-email "Aucun compte avec cette adresse e-mail"
@@ -2037,7 +2064,14 @@
     :ffg "FFG"
     :api-keys "Clés API"
     :delete-api-key "Effacer"
-    :create-api-key "Créer une clé API"}
+    :create-api-key "Créer une clé API"
+    :log-player-highlight "Couleurs dans le journal de partie"
+    :log-player-highlight-none "Aucune"
+    :log-player-highlight-red-blue "Corpo : Bleu / Runner : Rouge"
+    :log-size "Taille du journal de partie"
+    :pin-zoom "Laisser la carte agrandie affichée à l’écran"
+    :player-stats-icons "Afficher des icônes pours les stats des joueurs"
+    :sides-overlap "Les zones de jeu du Runner et de la Corpo peuvent se chevaucher"}
   :stats
   {:game-stats "Statistiques de jeu"
    :corp-stats "Statistiques Corpo"
@@ -2080,7 +2114,10 @@
   :log
   {:game-log "Journal de partie"
    :annotating "Annoter"
-   :shared "Annotations partagées"}
+   :shared "Annotations partagées"
+   :notes.publish "Publier"
+   :remote-annotations-fail "Les annotations n’ont pas pu être récupérées"
+   :settings "Réglages"}
   :annotations
   {:remote-annotations-fail "Impossible d'obtenir les annotations distantes"
    :turn-placeholder "Notes pour ce tour"
@@ -2196,9 +2233,23 @@
    :win-conceded (fn [[turn]] (str "gagne par abandon au tour " turn))
    :win-claimed (fn [[turn]] (str "gagne par réclamation au tour " turn))
    :win-points (fn [[turn]] (str "gagne aux points de projet au tour " turn))
-   :win-other (fn [[turn reason]] (str "gagne par " reason " au tour " turn))}
-   }
-
+   :win-other (fn [[turn reason]] (str "gagne par " reason " au tour " turn))
+   :ok "OK"
+   :set-aside "Mettre de côté"},
+  :ingame-settings
+  {:alt-art "Illustrations alternatives"
+   :card-backs "Dos des cartes"
+   :card-images "Images des cartes"
+   :card-stacking "Mélange en cours"
+   :high-res "Activer les images des cartes en haute résolution"
+   :preview-zoom "Image agrandie"
+   :runner-board-order "Chevauchement des zones de jeu"
+   :runner-classic "classique"
+   :runner-reverse "inversé"
+   :save "Sauvegarder"
+   :show-alt "Afficher les illustrations alternatives"
+   :sides-overlap "Le Runner et la Corpo peuvent se chevaucher"
+   :stack-cards "Mélanger le Tas"}}
 
   :ko
   {:missing ":ko 텍스트를 찾을 수 없음"
