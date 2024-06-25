@@ -1932,7 +1932,9 @@
      :games "Parties"
      :completed "Terminées"
      :won "Gagnées"
-     :lost "Perdues"}
+     :lost "Perdues"
+     :copy "Copier"
+     :deck-copy-suffix "copie"}
    :lobby
     {:no-games "Pas de partie"
      :tournament "Tournois"
@@ -1993,21 +1995,21 @@
      :timed-game "Démarrer la partie avec horloge"
      :timer-length "Durée (minutes)"}
    :angel-arena
-   {:abandon-run "Abandonner le run en cours"
-    :active-corp-run "Run actif de la Corpo"
-    :active-runner-run "Run actif du Runner"
+   {:abandon-run "Abandonner la série en cours"
+    :active-corp-run "Série active de la Corpo"
+    :active-runner-run "Série active du Runner"
     :are-you-sure "Êtes-vous sûr·e ?"
     :are-you-sure-no "non"
     :are-you-sure-yes "oui"
     :cancel-match "Annuler le match"
     :claim-victory "Revendiquer la victoire"
     :format "Format"
-    :latest-runs "Derniers runs"
+    :latest-runs "Dernières séries"
     :no-eligible-decks "Pas de deck légal pour ce camp et ce format"
     :no-games "Pas de parties"
     :queue-for-match "Entrer dans la file d’attente"
-    :queueing "Actuellement dans la file d’attente"
-    :requesting-run-data "Demander les données du run"
+    :queueing "En cours d'attente"
+    :requesting-run-data "En attente des données de la série"
     :select-deck "Sélectionner votre deck"
     :start-new-run "Commencer un nouveau run"
     :still-here "Besoin de temps supplémentaire"
@@ -2240,16 +2242,16 @@
   {:alt-art "Illustrations alternatives"
    :card-backs "Dos des cartes"
    :card-images "Images des cartes"
-   :card-stacking "Mélange en cours"
-   :high-res "Activer les images des cartes en haute résolution"
-   :preview-zoom "Image agrandie"
+   :card-stacking "Tri des cartes"
+   :high-res "Activer les images de carte en haute résolution"
+   :preview-zoom "Vue de la carte agrandie"
    :runner-board-order "Chevauchement des zones de jeu"
    :runner-classic "classique"
    :runner-reverse "inversé"
    :save "Sauvegarder"
    :show-alt "Afficher les illustrations alternatives"
-   :sides-overlap "Le Runner et la Corpo peuvent se chevaucher"
-   :stack-cards "Mélanger le Tas"}}
+   :sides-overlap "Les zones de jeu des joueurs peuvent se chevaucher"
+   :stack-cards "Trier les cartes dans le Tas"}}
 
   :ko
   {:missing ":ko 텍스트를 찾을 수 없음"
