@@ -2245,7 +2245,7 @@
    :card-stacking "Tri des cartes"
    :high-res "Activer les images de carte en haute résolution"
    :preview-zoom "Vue de la carte agrandie"
-   :runner-board-order "Chevauchement des zones de jeu"
+   :runner-board-order "Disposition du Runner du point de vue de la Corpo"
    :runner-classic "classique"
    :runner-reverse "inversé"
    :save "Sauvegarder"
