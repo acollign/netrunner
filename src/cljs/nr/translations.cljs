@@ -1966,7 +1966,7 @@
      :select-deck "Sélectionner un deck"
      :chat "Discuter"
      :select-title "Sélectionner votre deck"
-     :spectator-count (fn [[cnt]] (str cnt " Spectateur" (when (not= cnt 1) "s")))
+     :spectator-count (fn [[cnt]] (str cnt " Spectateur·trice" (when (not= cnt 1) "·s")))
      :closed-msg "Salle d'attente fermée pour cause d'inactivité"
      :title-error "Veuillez saisir un nom de partie."
      :password-error "Veuillez saisir un mot de passe."
@@ -2237,12 +2237,18 @@
    :win-points (fn [[turn]] (str "gagne aux points de projet au tour " turn))
    :win-other (fn [[turn reason]] (str "gagne par " reason " au tour " turn))
    :ok "OK"
+   :error "Erreur interne du serveur. Veuillez saisir /bug dans le chat et suivre les instructions."
    :set-aside "Mettre de côté"},
   :ingame-settings
   {:alt-art "Illustrations alternatives"
    :card-backs "Dos des cartes"
    :card-images "Images des cartes"
    :card-stacking "Tri des cartes"
+   :archives-sorted "Trier les cartes dans les Archives"
+   :card-sorting "Tri des cartes"
+   :head-sorted "Trier les cartes dans le Tas"
+   :labeled-cards "Étiquettes sur les cartes face visible"
+   :labeled-unrezzed-cards "Étiquettes sur les cartes non activées"
    :high-res "Activer les images de carte en haute résolution"
    :preview-zoom "Vue de la carte agrandie"
    :runner-board-order "Disposition du Runner du point de vue de la Corpo"
