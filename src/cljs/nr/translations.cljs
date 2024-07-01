@@ -2247,8 +2247,8 @@
    :archives-sorted "Trier les cartes dans les Archives"
    :card-sorting "Tri des cartes"
    :head-sorted "Trier les cartes dans le Tas"
-   :labeled-cards "Étiquettes sur les cartes face visible"
-   :labeled-unrezzed-cards "Étiquettes sur les cartes non activées"
+   :labeled-cards "Étiqueter les cartes face visible"
+   :labeled-unrezzed-cards "Étiqueter les cartes non activées"
    :high-res "Activer les images de carte en haute résolution"
    :preview-zoom "Vue de la carte agrandie"
    :runner-board-order "Disposition du Runner du point de vue de la Corpo"
@@ -2257,7 +2257,7 @@
    :save "Sauvegarder"
    :show-alt "Afficher les illustrations alternatives"
    :sides-overlap "Les zones de jeu des joueurs peuvent se chevaucher"
-   :stack-cards "Trier les cartes dans le Tas"}}
+   :stack-cards "Empiler les cartes"}}
 
   :ko
   {:missing ":ko 텍스트를 찾을 수 없음"
