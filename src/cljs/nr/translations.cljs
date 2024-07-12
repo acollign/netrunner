@@ -2255,6 +2255,7 @@
    :turn.corp-discard-phase-d "Le tour de la corpo prend formellement fin. Résolution des effets qui se déclenchent à cette étape"
    :turn.corp-discard-phase-e "Passez au tour de lae runner"
    :turn.corp-turn "Tour de la Corporation"
+   :turn.runner-turn "Tour de lae runner"
    :turn.runner-action-phase "5.7.1. : Phase d’action"
    :turn.runner-action-phase-a "Lae runner gagne les clics alloués pour ce tour (par défaut : [click][click][click][click])"
    :turn.runner-action-phase-b "Fenêtre de capacité payante. La corpo peut activer toutes cartes, excepté des glaces"
